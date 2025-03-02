@@ -1,0 +1,31 @@
+.geral-head{
+    background-color: #2a8c4a;
+}
+
+.titulo h2{
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.menu button{
+    background-color: #98FF98; /* Verde menta */
+    color: #2C3E50; /* Azul petróleo */
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-align: center;
+    justify-content: center;
+}
+
+.menu button:hover {
+    background-color: #2C3E50; /* Azul petróleo */
+    color: #FFFFFF; /* Branco */
+    transform: scale(1.05);
+}
+
